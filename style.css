@@ -20,9 +20,9 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-             overflow-x: hidden;
+           
         }
-html,
+        html,
 body{
     width:100%;
     overflow-x:hidden;
@@ -343,7 +343,8 @@ body{
 
         /* ---------- Hero ---------- */
         .hero {
-            
+             width: 100%;
+    max-width: 100%;
             position: relative;
             min-height: 100vh;
             display: flex;
