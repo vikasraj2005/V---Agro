@@ -926,6 +926,7 @@ header.nav-active .burger span:nth-child(3) {
     font-weight: 600;
     font-size: 14px;
     cursor: pointer;
+    transition: all ease;
 }
 
 .gtile img {
@@ -934,6 +935,10 @@ header.nav-active .burger span:nth-child(3) {
     object-fit: cover;
     position: absolute;
     overflow: hidden;
+    border-radius: 20px;
+}
+.gtile:hover {
+  transform: scale(1.05);
 }
 
 
