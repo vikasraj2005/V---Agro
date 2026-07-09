@@ -13,6 +13,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
         rel="stylesheet">
+
+        <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     
     
 </head>
@@ -23,13 +26,7 @@
     <header id="siteHeader">
         <nav>
             <a href="#home" class="logo">
-                <svg class="logo-mark" viewBox="0 0 48 48" fill="none">
-                    <circle cx="24" cy="24" r="23" fill="#1B5E20" />
-                    <path d="M24 34C24 34 14 29 14 20C14 14 18 10 24 10C30 10 34 14 34 20C34 29 24 34 24 34Z"
-                        fill="#D4A017" />
-                    <path d="M24 34C24 34 24 24 24 18C24 14 21 10 24 10C27 10 24 14 24 18C24 24 24 34 24 34Z"
-                        fill="#43A047" />
-                </svg>
+                <img src="image/v_agro.jpg-removebg-preview.png" alt="" width="70">
                 <span>V Agro Overseas<span class="logo-sub">From Nature, To The World</span></span>
             </a>
             <ul class="nav-links">
@@ -48,6 +45,7 @@
             </div>
         </nav>
     </header>
+    
 
     <!-- ================= HERO ================= -->
     <section class="hero" id="home">
@@ -336,23 +334,26 @@
                 <h2>From Farm to Freight</h2>
             </div>
             <div class="gallery-grid">
-                <div class="gtile g1 reveal zoom" style="--tint:linear-gradient(160deg,#3E7C3F,#1B5E20);">
-                    <span>Farm</span></div>
-                <div class="gtile g2 reveal zoom" style="--tint:linear-gradient(160deg,#7A9B4E,#4C6B2A);">
-                    <span>Harvesting</span></div>
-                <div class="gtile g3 reveal zoom" style="--tint:linear-gradient(160deg,#B8862F,#8A5F1E);">
-                    <span>Sorting</span></div>
-                <div class="gtile g4 reveal zoom" style="--tint:linear-gradient(160deg,#5D8F63,#2F5E33);">
-                    <span>Packaging</span></div>
-                <div class="gtile g5 reveal zoom" style="--tint:linear-gradient(160deg,#3D6E9C,#1F3F5C);"><span>Cold
-                        Storage</span></div>
-                <div class="gtile g6 reveal zoom" style="--tint:linear-gradient(160deg,#43A047,#1B5E20);"><span>Shipping
-                        Containers</span></div>
-                <div class="gtile g7 reveal zoom" style="--tint:linear-gradient(160deg,#9C7A3D,#6B4F21);">
-                    <span>Loading</span></div>
-                <div class="gtile g8 reveal zoom" style="--tint:linear-gradient(160deg,#4E6B4F,#28361F);">
-                    <span>Warehouse</span></div>
-            </div>
+                <div class="gtile g1 reveal zoom">
+                      <span>Farm</span>
+                    <img src="image/gallery_farm.png" alt="V Agro Onion and Garlic Farm in India">
+                  </div>
+                <div class="gtile g2 reveal zoom">
+                    <span>Harvesting</span>
+                 <img src="image/gallery_harvesting.png" alt="Farmers harvesting fresh Indian red onions"></div>
+                <div class="gtile g3 reveal zoom">
+                    <span>Sorting</span>
+                 <img src="image/gallery_sorting.png" alt="Workers sorting and grading garlic bulbs"></div>
+                <div class="gtile g4 reveal zoom">
+                    <span>Packaging</span>
+                 <img src="image/gallery_packaging.png" alt="Red onions packed in mesh bags for export"></div>
+                <div class="gtile g5 reveal zoom"><span>Cold
+                        Storage</span>
+                     <img src="image/gallery_cold_storage.png" alt="Organized cold storage warehouse for fresh produce"></div>
+                <div class="gtile g6 reveal zoom"><span>Shipping
+                        Containers</span>
+                     <img src="image/gallery_shipping.png" alt="Shipping cargo containers loaded at port"></div>
+                
         </div>
     </section>
 
@@ -452,7 +453,7 @@
                             </select>
                         </div>
                         <div class="form-field full"><label>Destination Port</label><input type="text"
-                                placeholder="e.g. Jebel Ali Port, UAE"></div>
+                                placeholder="e.g. Colombo, Sri Lanka"></div>
                         <div class="form-field full"><label>Message</label><textarea rows="4"
                                 placeholder="Tell us more about your requirement..."></textarea></div>
                     </div>
@@ -481,8 +482,16 @@
             </div>
             <div class="contact-grid">
                 <div class="map-frame reveal left">
-                    <iframe src="https://www.google.com/maps?q=Nashik,Maharashtra,India&output=embed" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade" title="V Agro Overseas location"></iframe>
+              <iframe
+    src="https://maps.google.com/maps?q=V%20Agro%20Overseas,%20Asanur%20Terminal,%20Kallakurichi%20Dt,%20Tamilnadu,%20India&t=&z=15&ie=UTF8&iwloc=B&output=embed"
+    width="100%"
+    height="450"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    title="V Agro Overseas Location">
+</iframe>
                 </div>
                 <div class="contact-card reveal right">
                     <div class="contact-row">
@@ -493,7 +502,8 @@
                             </svg></div>
                         <div>
                             <h4>Address</h4>
-                            <p>V Agro Overseas, Agri Export Zone, Nashik, Maharashtra, India</p>
+                            <p>V Agro Overseas, Asanur Terminal, Kallakurichi Dt,
+Tamilnadu, India</p>
                         </div>
                     </div>
                     <div class="contact-row">
@@ -504,7 +514,7 @@
                             </svg></div>
                         <div>
                             <h4>Phone / WhatsApp</h4>
-                            <p>+91 98765 43210</p>
+                            <p>+91 73392 52836</p>
                         </div>
                     </div>
                     <div class="contact-row">
@@ -515,7 +525,7 @@
                             </svg></div>
                         <div>
                             <h4>Email</h4>
-                            <p>export@vagrooverseas.com</p>
+                            <p>vagrooverseas@gmail.com</p>
                         </div>
                     </div>
                     <div class="contact-row">
@@ -540,27 +550,21 @@
             <div class="footer-grid">
                 <div>
                     <div class="footer-logo">
-                        <svg width="36" height="36" viewBox="0 0 48 48" fill="none">
-                            <circle cx="24" cy="24" r="23" fill="#1B5E20" />
-                            <path d="M24 34C24 34 14 29 14 20C14 14 18 10 24 10C30 10 34 14 34 20C34 29 24 34 24 34Z"
-                                fill="#D4A017" />
-                            <path d="M24 34C24 34 24 24 24 18C24 14 21 10 24 10C27 10 24 14 24 18C24 24 24 34 24 34Z"
-                                fill="#43A047" />
-                        </svg>
+                        <img src="image/v agro.jpg.jpeg" alt="" width="60" >
                         V Agro Overseas
                     </div>
                     <p class="footer-tagline">From Nature, To The World — premium Indian agricultural exports delivered
                         with trust and care.</p>
                     <div class="social-row">
-                        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke-width="2">
+                        <a href="#" aria-label="Facebook" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke-width="2">
                                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
                             </svg></a>
-                        <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke-width="2">
+                        <a href="#" aria-label="LinkedIn" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke-width="2">
                                 <rect x="2" y="9" width="4" height="12" />
                                 <circle cx="4" cy="4" r="2" />
                                 <path d="M10 9h4v2a4 4 0 018 0v10h-4v-9a2 2 0 00-4 0v9h-4z" />
                             </svg></a>
-                        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke-width="2">
+                        <a href="https://www.instagram.com/vagrooverseas?utm_source=qr&igsh=bHZydTNuOWYzbHc=" aria-label="Instagram" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke-width="2">
                                 <rect x="2" y="2" width="20" height="20" rx="5" />
                                 <circle cx="12" cy="12" r="4" />
                                 <circle cx="17.5" cy="6.5" r="1" />
@@ -585,21 +589,13 @@
                        
                     </ul>
                 </div>
-                <!-- <div class="footer-col">
-                    <h4>Stay Updated</h4>
-                    <p class="footer-tagline" style="margin-bottom:14px;">Subscribe for export updates and market
-                        insights.</p>
-                    <div class="newsletter">
-                        <input type="email" placeholder="Your email">
-                        <button type="button">Join</button>
-                    </div>
-                </div> -->
             </div>
             <div class="footer-bottom">
                 <span>© 2026 V Agro Overseas. All Rights Reserved.</span>
                 <span>Designed for global agricultural trade.</span>
             </div>
         </div>
+       
     </footer>
 
     <script>
@@ -663,27 +659,6 @@
         }, { threshold: 0.5 });
         counters.forEach(c => counterIO.observe(c));
 
-        // Orbit nodes (export markets)
-        const countries = [
-            "UAE", "Saudi Arabia", "Qatar", "Kuwait", "Oman", "Bahrain",
-            "Malaysia", "Singapore", "Sri Lanka", "Bangladesh", "Nepal"
-        ];
-        const orbitWrap = document.getElementById('orbitWrap');
-        if (orbitWrap) {
-            const radiusPct = 44;
-            countries.forEach((name, i) => {
-                const angle = (i / countries.length) * 2 * Math.PI - Math.PI / 2;
-                const x = 50 + radiusPct * Math.cos(angle);
-                const y = 50 + radiusPct * Math.sin(angle);
-                const node = document.createElement('div');
-                node.className = 'node';
-                node.style.left = x + '%';
-                node.style.top = y + '%';
-                node.style.animationDelay = (i * 0.15) + 's';
-                node.innerHTML = name + '<span class="pulse" style="animation-delay:' + (i * 0.2) + 's"></span>';
-                orbitWrap.appendChild(node);
-            });
-        }
 
         // Quote form submit
         const quoteForm = document.getElementById('quoteForm');
@@ -714,6 +689,12 @@
             });
         });
     </script>
+    <!-- WhatsApp Floating Button -->
+<a href="https://wa.me/917339252836?text=Hello%20V%20Agro%20Overseas,%20I%20would%20like%20to%20know%20more%20about%20your%20products."
+   class="whatsapp-float"
+   target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
 
 </body>
 
